@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   <link rel = "ico" href = "favicon.ico">
+</head>
+<body>
+    <h3>Ficha de Cadastro</h3>
+    <hr/>
+    <form name="formulario" target="_blank">
+        <label>
+            Nome: <input type="text" name="nome"/>
+        </label> <br><br>
+       
+        <label>
+            idade: <input type="number" min="0" max="99" name="idade"/>
+        </label><br><br>
+        
+         <label>
+            Data de Nascimento: <input type="date"  name="nascimento"/>
+        </label><br><br>
+        
+         <label>
+          Sexo Biológico: Masculino<input type="radio" value="M" name="Sexo"/>Feminino <input type="radio" value="F" name="Sexo"/>
+        </label><br><br>
+
+        Ocupação: <select name="opções">
+            <option value="estudante">Estudante</option>
+            <option value="clt">Assalariado</option>
+            <option value="autononomo">Empreendedor</option>
+            <option value="outros">Outro</option>
+        </select><br><br>
+        
+        <label>
+            E-mail: <input type="email" name="email"/>
+        </label><br><br>
+        
+        <label>
+            Senha: <input type="password" name="senha"/>
+        </label><br><br>
+           
+        <label>
+            Felicidade: <input type="range" min="0" max="100" name="satisfacao"/>
+        </label><br><br>
+         
+         <label>
+            Cor Favorita: <input type="color" name="cor"/>
+        </label><br><br>
+        
+        <label>
+            Sua Foto: <input type="file" />
+        </label><br><br>
+
+       <label> Mensagem: </label>
+       <textarea  name="msg"> </textarea><br><br>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>
