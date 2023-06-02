@@ -5,63 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica Desafio </title>
-    <link  rel="Logo" href="imagem/favicon.ico">
+    <link rel="icon" type="icon" href="imagem/favicon.ico">
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-    <head>
-        <div class="Topo">
-            <figure>
-                <img src="imagem/android-chrome-192x192.png" alt="Logo">
-            </figure>
-        
-        <div class="NomeMarca">
-            <h3>Clínica Médica <i><strong>Desafio</strong></i> </h3>
-        </div>
-        </div>
-    </head>
+<body class = "container">
+    <header class="topo">
+        <img id="logo" title="Logo" src="imagem/android-chrome-192x192.png" alt="Logo">
 
-   
+        <span id="nomeMarca">
+            Clínica Médica <i><strong>Desafio</strong></i>
+        </span>
+    </header>
 
-    </div>
     <section>
-        <nav>
-          <ul>
-            <li><a href="index.html">Ínicio</a></li>
-            <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="agenda.html">Agenda</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            
-          </ul>
-        </nav>
-    <div class="Meio">
-        <form>
-            <label>Nome:</label><input type="text" name="nome">
-            <label>Data de Nascimento:</label><input type="date" name="dataNascimento">
-            <label>Celular:</label><input type="number" name="celular">
-            <label>E-mail:</label><input type="email" name="nome">
+        <nav id="menu">
+            <ul class="lista">
+                <li><a href="index.html">Ínicio</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="contato.html">Contato</a></li>
 
-            <select name="assunto" id="assunto">
-                <option value="agenda">Agendamento</option>
-                <option value="agendacancelar">Cancelamento</option>
-                <option value="atendimento">Recepção</option>
-                <option value="adm">Financeiro</option>
-                <option value="sac">Suporte</option>
-            </select>
+            </ul>
+        </nav>
+    </section>
+    
+    <div class="Meio">
+        <div class="cabecalho">
+            <h1>Fale Conosco</h1>
+        </div>
+        <form class="FormularioContato">
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="nome" required>
+
+            </div>
+            <div>
+                <label>Data de Nascimento:</label>
+                <input type="date" name="dataNascimento">
+
+            </div>
+            <div>
+                <label>Celular:</label>
+                <input type="number" name="celular"required>
+
+            </div>
+            <div>
+                <label>WhatsApp:</label>
+                
+                <input type="radio" name="WhatsApp" value = "Sim" checked>Sim
+                <input type="radio" name="WhatsApp" value = "Não" >Não
+
+            </div>
+            <div>
+                <label>E-mail:</label>
+                <input type="email" name="nome"required>
+            </div>
+                       
+            <div>
+                <label>Setor:</label>
+                <select name="assunto" id="assunto"required>
+                    <option selected disabled value = "">Escolha...</option>
+                    <option value="agenda">Agendamento</option>
+                    <option value="agendacancelar">Cancelamento</option>
+                    <option value="atendimento">Recepção</option>
+                    <option value="adm">Financeiro</option>
+                    <option value="sac">Suporte</option>
+                </select>
+            </div>
+
+           
             
-            <label>Mensagem </label>
-            <textarea name="msg"> </textarea>
+            <div id="caixaMsg">
+                <label>Mensagem </label>
+                <textarea row = "10" name="msg"> </textarea>
+
+            </div>
+           
             <button type="submit">Enviar</button>
         </form>
 
     </div>
+      
+        
     <footer>
         <p>Autor: Monica Lima<br>
-            <a href="https://www.linkedin.com/in/monicalima/">Linkedin</a><br>
-            <a href="https://github.com/monica88lima?tab=repositories">GitHub</a>
-        </p>
-        
-
-    </footer>
+            <a href="https://www.linkedin.com/in/monicalima/" target="_blank">Linkedin</a><br>
+            <a href="https://github.com/monica88lima?tab=repositories" target="_blank">GitHub</a>
+   
 </body>
 </html>

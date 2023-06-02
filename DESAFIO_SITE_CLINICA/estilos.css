@@ -1,83 +1,137 @@
-* {
+body {
   margin: 0;
-  padding: 0;
+  padding: 10;
   box-sizing: border-box;
+  background:  rgb(252, 247, 241);
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 20vh 70vh 10vh;
 }
 
 header {
+ 
+ background-color:  darkblue;;
+ grid-column-start: 1;
+ grid-column-end: 3;
+ 
+  
+}
+
+
+
+section{
+  background-color: rgb(252, 247, 241);
+  height: 555px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size:large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 45px;
+  color: black;
+
+}
+
+.fotos{
+  background-color: rgb(152, 203, 233);
+  width: 400px;
+  border-radius: 5px;
+ 
+
+}
+
+footer{
+  background-color: rgb(199, 233, 248);
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size:medium;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Meio{
+  background-color: rgb(252, 247, 241);
+  height: 600px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 20px;
+  font-size: larger;
+}
+
+
+.menu-especialidade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#logo{
+  height: 120px;
+  padding: 20px;
+}
+
+#nomeMarca{
+  padding: 120px  ;
+  font-size: xx-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: cornflowerblue;
+  
+}
+.topo{
   display: flex;
   align-items: center;
-  border-bottom: 1px solid grey;
-  margin-bottom: 32px;
-  /* background-color: #666;
-  text-align: center;
-  font-size: 35px;
+  
+}
+
+.FormularioContato{
+  padding: 20px  ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(10, 31, 71);
+  line-height: 45px;
+}
+
+button{
+  border-radius: 10px;
+  border: none;
+  background-color: #008CBA;
   color: white;
-  width: 300px;
-  border: 15px;
-  padding: 50px;
-  margin: 0px;
-  margin-top: 15px; */
-}
-
-header>img {
-  width: 100px;
-}
-
-header>span {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  padding: 14px 40px;
   text-align: center;
-  color: rgb(71, 133, 239);
-  font-size: 32px;
-  margin-left: 16px;
-}
-
-
-
-/* footer {
-  background-color: #bda1c9;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-
-
-.fotos {
-  max-width: 850px;
-  max-height: 200px;
+  text-decoration: none;
   display: inline-block;
-  border: 2px solid rgb(194, 192, 192);
-  margin: 4px;
-  object-fit: contain;
-  border-radius: 50%;
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
+  font-size: 16px;
+  
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#TextoSobre{
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(115, 57, 182);
+  line-height: 5px;
+
 }
 
-section {
-  font-size: 15px;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-} */
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 
-/* #logo {
-  width: 300px;
-  border: 15px;
-  padding: 50px;
-  margin: 0px;
-  margin-top: 15px;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-} */
+th {
+ background-color:  darkblue;;
+ color: white;
+}
