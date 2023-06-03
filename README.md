@@ -1,6 +1,6 @@
-# Título do Projeto
+# Estudos Front-end
 
-Montar um Site para uma clínica médica
+1) Desafio: Montar Sites para uma clínica médica, contendo, textos coerentes, imagens, menu, tabelas e formulários.
 
 ## Descrição
 
