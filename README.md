@@ -17,7 +17,7 @@ Hora de Codar
 Bootstrap 5 - Matheus Battisti
 
 ![Desafio- 2](https://github.com/monica88lima/FrontEnd/blob/master/HORADECODAR/projeto-print/header.png)
-![Desafio- 2](https://github.com/monica88lima/FrontEnd/blob/master/HORADECODAR\projeto-print\secao.png)
+![Desafio- 2](https://github.com/monica88lima/FrontEnd/blob/master/HORADECODAR/projeto-print/secao.png)
 ![Desafio- 2](https://github.com/monica88lima/FrontEnd/blob/master/HORADECODAR/projeto-print/forms.png)
 
 
