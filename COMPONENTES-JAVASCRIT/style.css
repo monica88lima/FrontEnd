@@ -1,0 +1,77 @@
+
+
+
+.topico {
+    display: flex;
+    align-items: center; 
+    gap: 16px; 
+    background-color:rgb(252, 251, 251);
+  
+    
+}
+
+.topico i,
+.topico h2 {
+    font-size: 24px; 
+    color: gray ;
+    
+}
+.topico h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.experiencia {
+   
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#cargo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+#data {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+}
+
+#descricaoBreve {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+    line-height: 1.9;
+}
+
+details {
+    margin-top: 15px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+details:hover {
+    background-color:rgb(253, 253, 253);
+}
+.dados{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+
+
+
+
