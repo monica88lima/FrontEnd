@@ -67,11 +67,27 @@ details:hover {
 }
 .dados{
     display: flex;
-    justify-content: space-between;
+    
     gap: 36px;
 }
-
-
+.extras{
+    display: flex;
+    gap: 36px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    align-items: center; 
+    
+    
+}
+.competencias{
+    display: flex;
+    gap: 36px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    align-items: center; 
+}
 
 
 
