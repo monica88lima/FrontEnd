@@ -1,5 +1,7 @@
 
-
+body{
+    background-color:rgb(253, 248, 248);
+}
 
 .topico {
     display: flex;
@@ -63,30 +65,61 @@ details {
 }
 
 details:hover {
-    background-color:rgb(253, 253, 253);
+    background-color:rgb(224, 222, 222);
 }
 .dados{
     display: flex;
     
     gap: 36px;
 }
-.extras{
-    display: flex;
-    gap: 36px;
-    margin-top: 15px;
-    padding: 10px;
-    font-weight: bold;
-    align-items: center; 
+
+
+.formacao{
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+ 
+
+    box-shadow: 4px 4px 10px rgba(27, 2, 29, 0.1);
+    width:300px;
+    height: 100px;
+    text-align: center;
+    
+    font-size: 12px;
+    
+    font-weight: 500;
+    line-height: .8;
     
     
 }
-.competencias{
+.formacao h3{
+    font-size: 18px;
+    color:rgba(22, 1, 29, 0.99);
+    margin-bottom: 5px;
+    height: 20px;
+    
+}
+.info{
     display: flex;
-    gap: 36px;
-    margin-top: 15px;
-    padding: 10px;
-    font-weight: bold;
-    align-items: center; 
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.formacao:hover{
+    
+    color: pink;
+    border: 1px solidrgb(247, 244, 243);
+}
+.containerFormacao{
+  padding: 50px;
+  display: flex;
+  width: 100%;
+ 
+  height: 100px;
+  justify-content: space-evenly; ;
+
 }
 
 
